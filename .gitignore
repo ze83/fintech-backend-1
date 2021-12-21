@@ -120,3 +120,5 @@ dist
 # other
 sessions/
 stores/
+
+.vercel

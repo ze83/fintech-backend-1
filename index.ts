@@ -18,7 +18,7 @@ import { setupRoutes as setupFintechRoutes } from './src/routes/fintech';
 dotenv.config();
 const FileStore = sessionFileStore(session);
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 const appSecret = process.env.APP_SECRET || 'supersecret';
 const frontendUrl = process.env.FRONTEND_URL || 'https://fintech-frontend-hzn2n3in5-lean120483-gmailcom.vercel.app';
 
