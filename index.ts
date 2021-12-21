@@ -20,7 +20,7 @@ const FileStore = sessionFileStore(session);
 const app = express();
 const port = process.env.PORT || 3000;
 const appSecret = process.env.APP_SECRET || 'supersecret';
-const frontendUrl = process.env.FRONTEND_URL || 'https://fintech-frontend-hzn2n3in5-lean120483-gmailcom.vercel.app';
+const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:4200';
 
 // Passport Strategy name definitions
 passport.use("local", localStrategy);

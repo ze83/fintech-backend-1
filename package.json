@@ -9,7 +9,7 @@
     "dev:auth": "ts-node-dev ./index.ts --with-auth",
     "start:auth": "tsc && node ./dist/index.js --with-auth",
     "deploy": "vercel deploy --prod",
-    "build": "tsc"
+    "postinstall": "tsc"
   },
   "author": "Michele Stieven",
   "license": "ISC",
