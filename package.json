@@ -8,7 +8,9 @@
     "start": "tsc && node ./dist/index.js",
     "dev:auth": "ts-node-dev ./index.ts --with-auth",
     "start:auth": "tsc && node ./dist/index.js --with-auth",
-    "deploy": "vercel deploy --prod"
+    "deploy": "vercel deploy --prod",
+    "build": "ng build",
+    "heroku-postbuild": "ng build --prod"
   },
   "author": "Michele Stieven",
   "license": "ISC",
